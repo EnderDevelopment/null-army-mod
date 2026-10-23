@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "null_army_mod",
+  "version": "${mod_version}",
+  "name": "Null Army Mod",
+  "description": "A Fabric mod for Minecraft 1.21.11 that summons the Null Army from Unstable SMP.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/null-army-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.nullarmymod.NullArmyMod"
+    ]
+  },
+  "mixins": [
+    "nullarmymod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}

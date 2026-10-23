@@ -1,0 +1,6 @@
+{
+  "item.null_army_mod.totem_of_null": "Totem of Null",
+  "itemGroup.null_army_tab": "Null Army",
+  "command.null.army": "Summoned Null Army members.",
+  "command.null.commander": "Summoned Null Commanders."
+}

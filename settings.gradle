@@ -1,0 +1,3 @@
+rootProject.name = 'null-army-mod'
+include 'fabric'
+project(':fabric').projectDir = file('src/main/resources/fabric')
